@@ -24,7 +24,7 @@ def hexcolor(value):
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 
 # Connect to LED Strip
-d = tinytuya.BulbDevice('bf69b2a86f215887bbp19a', '192.168.1.151', 'ae8e6e02b3dbcb6a')
+d = tinytuya.BulbDevice('device-id', 'device-ip', 'device-key')
 d.set_version(3.3)
 
 # Screenshiot cutting
